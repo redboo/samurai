@@ -1,0 +1,23 @@
+{
+	"editor.glyphMargin": false,
+	"breadcrumbs.enabled": true,
+	"liveSassCompile.settings.formats": [
+		// This is the default.
+		{
+			"format": "expanded",
+			"extensionName": ".css",
+
+			// null for all three -> denotes the same path as the SASS file
+			"savePath": "~/../css/",
+			"savePathSegmentKeys": null,
+			"savePathReplaceSegmentsWith": null
+		},
+		{
+			"format": "compressed",
+			"extensionName": ".min.css",
+
+			// ~ -> denotes relative to each sass file
+			"savePath": "~/../css/"
+		}
+	]
+}

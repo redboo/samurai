@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Favicon -->
+		<link
+			rel="shortcut icon"
+			href="./assets/img/favicon.ico"
+			type="image/x-icon"
+		/>
+
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="./assets/css/style.css" />
+
+		<title>Самурай</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="left-column">
+				<div class="top-sticky">
+					<img class="logo" src="./assets/img/logo.png" alt="Самурай" />
+					<div class="title">Телефон для консультации</div>
+					<div class="number">+7 965 500 52-00</div>
+					<a href="#order" class="btn">Отправить заявку</a>
+				</div>
+				<div class="cactus"></div>
+			</div>
+			<div class="right-column">
+				<h1><b>Лендинг</b> под ключ</h1>
+				<div class="subtitle">
+					Подходит для продвижения мероприятия, услуги или товара
+				</div>
+				<div class="types">
+					<div class="item">
+						<img src="./assets/img/01.svg" alt="img01" />Индивидуальный дизайн
+					</div>
+					<div class="item">
+						<img src="./assets/img/02.svg" alt="img02" />Техническое задание
+					</div>
+					<div class="item">
+						<img src="./assets/img/03.svg" alt="img03" />Удобное управление
+						сайтом
+					</div>
+					<div class="item">
+						<img src="./assets/img/04.svg" alt="img04" />Проверенные решения
+					</div>
+				</div>
+				<div class="laptop">
+					<img src="./assets/img/laptop.jpg" alt="laptop" />
+				</div>
+				<form id="order" class="order" method="POST" action="send.php">
+					<h3><b>Рассчитать</b> стоимость</h3>
+					<div class="services">
+						<label>
+							<p>Система управления сайтом</p>
+							<input type="checkbox" name="cms" checked /><span></span>
+						</label>
+						<label
+							><p>Разработка логотипа</p>
+							<input type="checkbox" name="logo" /><span></span>
+						</label>
+						<label>
+							<p>Каталог товаров</p>
+							<input type="checkbox" name="catalog" /><span></span>
+						</label>
+						<label>
+							<p>Поддержка 1 год</p>
+							<input type="checkbox" name="support" /><span></span>
+						</label>
+						<label>
+							<p>Многостраничный лендинг</p>
+							<input type="checkbox" name="landing" /><span></span>
+						</label>
+						<label>
+							<p>Оплата на сайте</p>
+							<input type="checkbox" name="payment" /><span></span>
+						</label>
+						<label>
+							<p>Конкурентный анализ</p>
+							<input type="checkbox" name="analysis" /><span></span>
+						</label>
+						<label>
+							<p>Лонгрид</p>
+							<input type="checkbox" name="longread" /><span></span>
+						</label>
+						<label>
+							<p>Написение текстов</p>
+							<input type="checkbox" name="writing" /><span></span>
+						</label>
+						<label>
+							<p>Помощь с техническим заданием</p>
+							<input type="checkbox" name="specification" /><span></span>
+						</label>
+					</div>
+					<div class="actions">
+						<div class="field">
+							<input type="text" name="phone" id="number" required />
+							<label for="number">Ваш телефон</label>
+						</div>
+						<button class="btn" type="submit">Отправить заявку</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,8 @@
+{
+	"recommendations": [
+		"editorconfig.editorconfig",
+		"glenn2223.live-sass",
+		"ritwickdey.liveserver",
+		"esbenp.prettier-vscode"
+	]
+}
