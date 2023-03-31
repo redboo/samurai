@@ -75,6 +75,9 @@ body {
   font-weight: 600;
   font-size: 37px;
   margin-bottom: 18px;
+  text-decoration: none;
+  display: block;
+  color: #0e0e0e;
 }
 
 .cactus {
