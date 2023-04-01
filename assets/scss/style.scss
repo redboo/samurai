@@ -207,7 +207,7 @@ h2 {
 		align-items: center;
 		cursor: pointer;
 
-		input {
+		input[type="checkbox"] {
 			position: absolute;
 			opacity: 0;
 			height: 0;

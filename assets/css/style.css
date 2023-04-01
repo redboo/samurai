@@ -189,14 +189,14 @@ h2 b:before {
   align-items: center;
   cursor: pointer;
 }
-.services label input {
+.services label input[type=checkbox] {
   position: absolute;
   opacity: 0;
   height: 0;
   width: 0;
   cursor: pointer;
 }
-.services label input:checked ~ span {
+.services label input[type=checkbox]:checked ~ span {
   background-image: url(../img/mark.svg);
   background-color: #0e0e0e;
 }
