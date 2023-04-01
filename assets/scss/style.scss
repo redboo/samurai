@@ -181,11 +181,9 @@ h2 {
 .laptop {
 	text-align: center;
 	margin-bottom: 115px;
-
-	img {
-		width: 646px;
-		height: 445px;
-	}
+	width: 646px;
+	height: 445px;
+	background: transparent url(../img/laptop.webp);
 }
 
 .services {
