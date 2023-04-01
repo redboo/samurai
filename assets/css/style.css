@@ -111,16 +111,16 @@ h1 b:before {
   left: -32px;
 }
 
-h3 {
+h2 {
   font-size: 72px;
   text-align: center;
   margin-bottom: 26px;
 }
-h3 b {
+h2 b {
   color: #e30613;
   position: relative;
 }
-h3 b:before {
+h2 b:before {
   content: " ";
   background: transparent url(../img/ellipse_2.svg);
   width: 539px;
