@@ -65,6 +65,8 @@ body {
 }
 .top-sticky .logo {
   margin-bottom: 32px;
+  width: 321px;
+  height: 339px;
 }
 .top-sticky .title {
   font-size: 14px;
@@ -155,12 +157,17 @@ h3 b:before {
 .types .item img {
   margin-right: 20px;
   width: 35px;
+  height: 35px;
   transform: scale(1.2);
 }
 
 .laptop {
   text-align: center;
   margin-bottom: 115px;
+}
+.laptop img {
+  width: 646px;
+  height: 445px;
 }
 
 .services {
